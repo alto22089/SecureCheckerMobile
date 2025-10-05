@@ -54,6 +54,15 @@
 | Androidアプリ | Android Studio (Kotlin) |
 | サーバ | VSCode + Docker (Python 3.9) |
 
+使用したPythonライブラリ
+- PyJWT
+- requests
+- python-dotenv
+- gunicorn
+- validators
+- ipaddress
+- google-api-python-client
+- cryptography
 ---
 
 ##  運用方針

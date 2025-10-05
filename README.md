@@ -124,15 +124,7 @@ git clone https://github.com/alto22089/SecureCheckerMobile.git
 docker compose up -d
 ```
 
-起動後、ブラウザで以下のURLにアクセスして確認してください：
 
-```
-http://localhost:8000
-```
-
-`SecureChecker Server is running` が表示されれば正常に起動しています。
-
----
 
 ##  使用上の注意
 

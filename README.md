@@ -77,6 +77,8 @@
 ---
 
 ##  インストール方法
+※ **public-model(公開サーバ用)** に関しては、 **Androidアプリのみ** を準備することで、SecureCheckerMobileを使用することができます。  
+※ **local-model(ローカル用)** に関しては、**Androidアプリとサーバの両方** を準備することで、SecureCheckerMobileを使用することができます。
 
 ### Androidアプリ側(「local-model(ローカル用)」「public-model(公開サーバ用)」)
 

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ユーザー名"/>
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="パスワード"
+        android:inputType="textPassword"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/tvTerms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="本利用規約（以下、本規約といいます。）は、セキュアチェッカーモバイル（以下、本アプリといいます。）の利用に関する条件を定めるものです。本アプリをご利用になる前によくお読みいただき、ご同意の上でご利用ください。\n\n
+
+第1条（本規約への同意）\n
+利用者は、本アプリをインストール、または利用を開始した時点で、本規約に同意したものとみなします。本規約に同意いただけない場合、利用者は本アプリを利用することはできません。\n\n
+
+第2条（サービスの概要）\n
+1. 本アプリは、利用者が入力または共有したURL、ファイル（以下、スキャン対象データといいます）の安全性を評価するための情報を提供するアプリケーションです。\n
+2. 本アプリは、第三者のセキュリティサービス（VirusTotal, urlscan.ioなど）のAPIを利用して、スキャン対象データの評価結果を表示します。\n
+3. 本アプリは、検索機能およびセキュアブラウザ機能を提供します。セキュアブラウザは、遷移先のURLの安全性を評価し、安全でない可能性があると判定された場合に警告を表示することがあります。\n\n
+
+第3条（禁止事項）\n
+利用者は、本アプリの利用にあたり、以下の行為を行ってはなりません。\n
+ (1) 法令または公序良俗に違反する行為\n
+ (2) 犯罪行為に関連する行為\n
+ (3) 本アプリのサーバーまたはネットワークの機能を破壊したり、妨害したりする行為\n
+ (4) 本アプリのサービスの運営を妨害するおそれのある行為\n
+ (5) 他の利用者に関する個人情報等を収集または蓄積する行為\n
+ (6) 不正な目的を持って本アプリを利用する行為\n
+ (7) 本アプリの他の利用者またはその他の第三者に不利益、損害、不快感を与える行為\n
+ (8) リバースエンジニアリング、逆コンパイル、または逆アセンブルする行為\n
+ (9) その他、開発者が不適切と判断する行為\n\n
+
+第4条（知的財産権）\n
+本アプリに関する著作権、商標権その他一切の知的財産権は、開発者または開発者にライセンスを許諾している者に帰属します。利用者は、法令で認められる範囲を超えて、これらの知的財産権を侵害する行為を行ってはなりません。\n\n
+
+第5条（免責事項）\n
+1. 本アプリが提供する情報の正確性について\n
+本アプリが表示するスキャン結果は、第三者のセキュリティサービスから提供される情報に基づくものであり、開発者はその情報の正確性、完全性、信頼性、最新性を一切保証するものではありません。評価結果はあくまで参考情報としてご利用ください。\n
+2. セキュリティの保証について\n
+本アプリは、いかなるマルウェア、ウイルス、フィッシングサイト等の脅威からも利用者のデバイスを完全に保護することを保証するものではありません。「安全」と表示された場合でも、その対象が100%安全であることを保証するものではなく、最終的な判断は利用者自身の責任で行うものとします。\n
+3. 損害について\n
+本アプリの利用に際し、利用者に生じたいかなる損害（スキャン対象データの誤判定、サービスの停止、ウイルス感染、データの損失、逸失利益などを含むがこれらに限定されない）についても、開発者は一切の責任を負わないものとします。\n
+4. 第三者サービスについて\n
+本アプリが利用する第三者のAPIサービス（VirusTotal, urlscan.ioなど）は、予告なく仕様が変更されたり、停止したりする可能性があります。これにより本アプリの機能の一部または全部が利用できなくなった場合でも、開発者は責任を負いません。\n
+5. スキャン対象データについて\n
+利用者がスキャンしたURLやファイルは、分析のために第三者のセキュリティサービスに送信されます。機密情報や個人情報を含むURL・ファイルをスキャンする際は、利用者自身の責任で判断してください。開発者は、送信されたデータに関して一切の責任を負いません。\n\n
+
+第6条（サービスの変更・中断・終了）\n
+開発者は、利用者に通知することなく、本アプリの内容を変更し、または本アプリの提供を中止・終了することができるものとします。開発者は、本条に基づき開発者が行った措置に基づき利用者に生じた損害について、一切の責任を負いません。\n\n
+
+第7条（利用規約の変更）\n
+開発者は、必要と判断した場合には、利用者に通知することなくいつでも本規約を変更することができるものとします。変更後の利用規約は、本アプリ内に掲示した時点からその効力を生じるものとし、利用者が本規約の変更後も本アプリを使い続けた場合、変更後の規約に同意したものとみなします。\n\n
+
+第8条（準拠法・裁判管轄）\n
+本規約の解釈にあたっては、日本法を準拠法とします。本アプリに関して紛争が生じた場合には、開発者の所在地を管轄する裁判所を専属的合意管轄とします.\n
+"/>
+    </ScrollView>
+
+    <CheckBox
+        android:id="@+id/cbAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="利用規約に同意する"/>
+
+    <Button
+        android:id="@+id/btnRegisterSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登録"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="戻る"/>
+</LinearLayout>

@@ -12,7 +12,7 @@
 ---
 
 ##  紹介動画
-5分程度の紹介動画を作成しました。  
+5分程度の紹介動画を作成しました。 動画が公開され次第URLを添付予定です。 
 👉 [セキュアチェッカーモバイルの紹介]()
 
 ---
@@ -88,11 +88,19 @@
 - **0.2 Gitのインストール（リポジトリをcloneする場合のみ）**  
   [Git 公式サイト](https://git-scm.com/downloads) よりインストール。
 
-- **0.3 APIキーの取得**  
-  本システムでは以下の外部APIを使用します：
+- **0.3 APIキー、暗号化キー、JWT認証秘密鍵の取得**  
+  まず、本システムでは以下の外部APIを使用します：
   - [VirusTotal](https://www.virustotal.com/)
   - [urlscan.io](https://urlscan.io/)  
 それぞれにログインしてAPIキーを取得し、**外部には公開しないでください。**
+
+次に、Pythonのcryptographyパッケージを使用し、以下のコマンド打ち込んで暗号化キーを取得します。
+```bash
+pip install cryptography
+python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
+```
+最後にJWT (JSON Web Token) を署名・検証するための秘密鍵となる文字列を生成します
+推奨は64文字以上のランダムHEXまたはbase64です。
 
 #### 1. サーバプログラムのダウンロード
 

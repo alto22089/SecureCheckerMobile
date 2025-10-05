@@ -124,7 +124,13 @@ git clone https://github.com/alto22089/SecureCheckerMobile.git
 docker compose up -d
 ```
 
+起動後、以下のコマンドを実行することで、サーバが正常に起動しているかを確認できます：
 
+```bash
+docker ps
+```
+
+---
 
 ##  使用上の注意
 

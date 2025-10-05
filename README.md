@@ -99,7 +99,7 @@ sever/.env
   - [VirusTotal](https://www.virustotal.com/)
   - [urlscan.io](https://urlscan.io/)
 
-それぞれにログインしてAPIキーを取得し、**外部には公開しないでください。**
+　それぞれにログインしてAPIキーを取得し、**外部には公開しないでください。**
 
 次に、Pythonのcryptographyパッケージを使用し、以下のコマンド打ち込んで暗号化キーを取得します。
 ```bash

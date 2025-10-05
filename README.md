@@ -108,7 +108,7 @@ GitHubから **`Secure_Checker_api_local.zip`** をダウンロードし、展�
 または、次のコマンドでリポジトリをcloneします：
 
 ```bash
-git clone https://github.com/ユーザー名/Secure_Checker_api_local.git
+git clone https://github.com/alto22089/SecureCheckerMobile.git
 ```
 
 #### 2. Docker Desktopの起動

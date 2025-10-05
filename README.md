@@ -113,7 +113,7 @@ git clone https://github.com/alto22089/SecureCheckerMobile.git
 配布されたフォルダの **~/SecureCheckerMobile/local-model/server** に移動し、以下のコマンドを実行します：
 
 ```bash
-docker compose up -d
+docker-compose up --build
 ```
 
 起動後、以下のコマンドを実行することで、サーバが正常に起動しているかを確認できます：

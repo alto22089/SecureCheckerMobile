@@ -1,0 +1,31 @@
+﻿#pip freeze > requirements.txt (Ver固定化用コード)
+
+# Webアプリケーションのフレームワーク
+Flask
+
+#DB関連
+Flask-SQLAlchemy
+
+#JWT認証
+PyJWT
+
+# APIとの通信用
+requests
+
+# ファイルから秘密情報(.env)を読み込むため
+python-dotenv
+
+# 本番環境でFlaskアプリを動かすためのWSGIサーバー
+gunicorn
+
+# URLやドメインの形式を検証するため
+validators
+
+# IPアドレスの計算や検証のため
+ipaddress
+
+#Google検索結果取得のため
+google-api-python-client
+
+#暗号化のため
+cryptography

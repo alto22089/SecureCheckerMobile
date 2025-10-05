@@ -78,7 +78,7 @@
 
 ##  インストール方法
 
-### Androidアプリ側
+### Androidアプリ側(「local-model(ローカル用)」「public-model(公開サーバ用)」)
 
 1. Androidデバイスの設定メニューから **外部ソースのアプリインストールを許可** します。  
 2. [GitHubリリースページ](#) から「local-model」か「public-model」を選択し、 **`app-release.apk`** をダウンロードします。  
@@ -86,7 +86,7 @@
 
 ---
 
-### サーバ側（ローカル実行手順：Windows 11想定）
+### サーバ側（「local-model(ローカル用)」：Windows 11想定）
 
 #### 0. 事前準備
 

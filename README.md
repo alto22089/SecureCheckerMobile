@@ -77,10 +77,10 @@
 
 ## コードについて
 
-公開しているコードは、実際に運用しているものをベースにしていますが、セキュリティ上の理由から一部修正を加えています。
-変更箇所
-android/app/src/main/java/com/example/myapplication/RetrofitClient.kt 15行目
-sever/.env
+公開しているコードは、実際に運用しているものをベースにしていますが、セキュリティ上の理由から一部修正を加えています。  
+変更箇所  
+android/app/src/main/java/com/example/myapplication/RetrofitClient.kt 15行目  
+sever/.env  
 
 ### サーバについて
 

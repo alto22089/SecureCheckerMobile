@@ -82,6 +82,8 @@
 android/app/src/main/java/com/example/myapplication/RetrofitClient.kt 15行目  
 sever/.env  
 
+---
+
 ### サーバについて
 
 #### 0. 事前準備

@@ -83,7 +83,7 @@
 ### Androidアプリ側(「local-model(ローカル用)」「public-model(公開サーバ用)」)
 
 1. Androidデバイスの設定メニューから **外部ソースのアプリインストールを許可** します。  
-2. [GitHubリリースページ](#) から「local-model」か「public-model」を選択し、 **`app-release.apk`** をダウンロードします。  
+2. [GitHubリリースページ](#) から「local-model」か「public-model」を選択し、androidフォルダの中にある **`app-release.apk`** をダウンロードします。  
 3. ダウンロードしたAPKファイルを実行してアプリをインストールします。
 
 ---

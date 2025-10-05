@@ -99,14 +99,14 @@ sever/.env
   - [VirusTotal](https://www.virustotal.com/)
   - [urlscan.io](https://urlscan.io/)
 
-　それぞれにログインしてAPIキーを取得し、**外部には公開しないでください。**
+　　それぞれにログインしてAPIキーを取得し、**外部には公開しないでください。**
 
 次に、Pythonのcryptographyパッケージを使用し、以下のコマンド打ち込んで暗号化キーを取得します。
 ```bash
 pip install cryptography
 python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
 ```
-最後にJWT (JSON Web Token) を署名・検証するための秘密鍵となる文字列を生成します
+最後にJWT (JSON Web Token) を署名・検証するための秘密鍵となる文字列を生成します。  
 推奨は64文字以上のランダムHEXまたはbase64です。
 
 #### 1. サーバプログラムのダウンロード

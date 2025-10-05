@@ -84,7 +84,7 @@ sever/.env
 
 ---
 
-### サーバについて
+## サーバの起動方法について(2025年度末までは不要です)
 
 #### 0. 事前準備
 
@@ -124,7 +124,7 @@ git clone https://github.com/alto22089/SecureCheckerMobile.git
 
 #### 3. サーバコンテナの起動
 
-配布されたフォルダの **~/SecureCheckerMobile/local-model/server** に移動し、以下のコマンドを実行します：
+配布されたフォルダの **~/SecureCheckerMobile/samplecode/server** に移動し、以下のコマンドを実行します：
 
 ```bash
 docker-compose up --build

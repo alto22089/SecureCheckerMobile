@@ -104,7 +104,7 @@
 
 #### 1. サーバプログラムのダウンロード
 
-GitHubから **`Secure_Checker_api_local.zip`** をダウンロードし、展開します。  
+GitHubから **`SecureCheckerMobile.zip`** をダウンロードし、展開します。  
 または、次のコマンドでリポジトリをcloneします：
 
 ```bash
@@ -118,7 +118,7 @@ git clone https://github.com/alto22089/SecureCheckerMobile.git
 
 #### 3. サーバコンテナの起動
 
-配布されたサーバプログラムのフォルダに移動し、以下のコマンドを実行します：
+配布されたフォルダの **~/SecureCheckerMobile/local-model/server** に移動し、以下のコマンドを実行します：
 
 ```bash
 docker compose up -d

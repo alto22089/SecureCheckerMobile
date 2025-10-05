@@ -97,8 +97,9 @@ sever/.env
 - **0.3 APIキー、暗号化キー、JWT認証秘密鍵の取得**  
   まず、本システムでは以下の外部APIを使用します：
   - [VirusTotal](https://www.virustotal.com/)
-  - [urlscan.io](https://urlscan.io/)  
-**それぞれにログインしてAPIキーを取得し、**外部には公開しないでください。**
+  - [urlscan.io](https://urlscan.io/)
+
+それぞれにログインしてAPIキーを取得し、**外部には公開しないでください。**
 
 次に、Pythonのcryptographyパッケージを使用し、以下のコマンド打ち込んで暗号化キーを取得します。
 ```bash
